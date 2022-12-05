@@ -40,7 +40,7 @@ public class SpringbootAppDockerHealthCheckApplication {
         } catch (FileNotFoundException e) {
             log.error("本地文件不存在", e);
         } catch (IOException e) {
-            log.error("io exception", e);
+            log.error("io 错误", e);
         }
 
         return content;
